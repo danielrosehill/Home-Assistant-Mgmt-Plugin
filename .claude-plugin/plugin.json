@@ -1,0 +1,13 @@
+{
+  "name": "home-assistant-mgmt",
+  "version": "1.0.0",
+  "description": "Manage a Home Assistant instance via SSH and the HA REST API — guided first-run onboarding, automation/entity authoring, service calls, TTS testing, and log review. Per-host config is stored outside the plugin so the same install works across multiple Home Assistant environments.",
+  "author": {
+    "name": "Daniel Rosehill",
+    "email": "public@danielrosehill.com",
+    "url": "https://danielrosehill.com"
+  },
+  "repository": "https://github.com/danielrosehill/Home-Assistant-Mgmt-Plugin",
+  "license": "MIT",
+  "keywords": ["home-assistant", "homelab", "smart-home", "automation", "iot", "sysadmin"]
+}
