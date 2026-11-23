@@ -8,6 +8,8 @@ Per-host details (IP, install type, SSH access, API URL, long-lived token refere
 
 - `onboard` — interactive first-run setup. Captures host, install type (HAOS / Container / Core / Supervised), optional SSH access, REST API URL, long-lived token reference, default TTS target, and config dir. Writes `config.json`.
 - `home-assistant-ops` — automation/entity authoring, service calls, TTS testing, log review, and config validation via the HA REST API and (optionally) SSH. Reads from `config.json`.
+- `group-automations` — group automations with a label and turn them on or off as a batch.
+- `pause-automations` — pause automations between dates with AutoSnooze; they resume by themselves.
 
 ## Requirements
 
